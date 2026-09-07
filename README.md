@@ -1,5 +1,5 @@
 # IPloc.py
-Ip enumerator for geo-pinpointing 
+
 IPLoc is a terminal based,lightweight program, built to integrate with an ip2location.io API key to interface their backend for location enumeration of IP addresses 
 Features 
 * Light and portable 

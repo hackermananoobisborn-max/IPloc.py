@@ -7,9 +7,11 @@ Features
 * Accepts target as link, ip4 and domain names 
 * Two modes of input single mode and batch mode for scanning multiple targets in a file
 * Creates a  simple log file to store your scanned Targets named Log.txt 
+
 How to install
 Gitclone the repo into any directory of your choice you would like to run this program from and then the install its only dependency python3
 Link to install python3: https://www.python.org/downloads/
+
 How to use 
 Simple run the program against python3 as so 
 Python3 iploc.py 

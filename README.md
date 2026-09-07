@@ -14,9 +14,10 @@ Gitclone the repo into any directory of your choice you would like to run this p
 Link to install python3: https://www.python.org/downloads/
 
 #How to use 
+
 Simple run the program against python3 as so 
 Python3 iploc.py 
 And input your target and api key
-For batch mode run the program against python3 and your txt file containing a list of targets with no indentations and then input the api key,can give a list of links,ips or domain names
-Note that to get an ip2location api key you need to sign up to their sight and then tou will receive a free key for use
+For batch mode run the program against python3 and your txt file containing a list of targets with no indentations and then input the api key, you can give a list of links,ips or domain names
+Note that to get an ip2location api key you need to sign up to their website  and then you will receive a free key for use.
 Link to get api key: ip2location.io

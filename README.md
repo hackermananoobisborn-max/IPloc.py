@@ -7,8 +7,7 @@ Features
 * Accepts target as link, ip4 and domain names 
 * Two modes of input single mode and batch mode for scanning multiple targets in a file
 * Creates a  simple log file to store your scanned Targets named Log.txt 
-
-*stores your api key so you don't have to manually input it after first run
+.stores your api key so you don't have to manually input it after first run
 
 #How to install
 

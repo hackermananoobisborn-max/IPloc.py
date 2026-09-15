@@ -15,9 +15,12 @@ Gitclone the repo into any directory of your choice you would like to run this p
 Link to install python3: https://www.python.org/downloads/
 
 #How to use 
-*for api key storeage create apikey.txt in the current gitcloned directory 
+
+for api key storeage create apikey.txt in the current gitcloned directory 
 then simple run the program against python3 as so 
+
 Python3 iploc.py 
+
 And input your target and api key
 For batch mode run the program against python3 and your txt file containing a list of targets with no indentations and then input the api key to be stored if not done already,you can give a list of links,ips or domain names
 Note that to get an ip2location api key you need to sign up to their website  and then you will receive a free key for use.

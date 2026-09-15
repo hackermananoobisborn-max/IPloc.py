@@ -8,7 +8,16 @@ from datetime import datetime
 
 if len(sys.argv) == 2 and sys.argv[1].find(".txt") != -1:
     try:
-        API = input("input your ip2location API:")
+        store = open("apikey.txt", "r+")
+        store.seek(0)
+        if len(store.read()) < 32:
+            API = input("input your ip2location API:")
+            store.write(API)
+            store.close()
+            API = API
+        else:
+            store = open("apikey.txt", "r+")
+            API = store.read()
         file = open(sys.argv[1], "r")
         for Host in file:
             Host = urllib.parse.urlparse(Host.strip())
